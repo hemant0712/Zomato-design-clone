@@ -1,0 +1,449 @@
+a{
+    text-decoration: none;
+}
+
+body,html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.section1{
+    background: url(../images/add_restaurant/zomato_images.webp) no-repeat center;
+    background-size: cover;
+}
+
+.section1 .data1{
+    padding-top: 200px;
+}
+
+.section1 .data1 h2{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.section1 .data1 p{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.section1 .data2 .inside{
+    padding: 12px;
+    border-radius: 10px;
+}
+
+/*-- ===============nav================= -- */
+.sec1 .container .row .h img{
+  width:120px;
+}
+
+.sec1 .container .row .btnn{
+  
+  color:white;
+  border:1px solid white;
+}
+.sec1 .container .row .navbar-collapse .navbar-nav .dropdown a{
+  font-size:20px;
+  color:white;
+  
+}
+/* ====================================== section2 starts here ================================ */
+
+.section2{
+  background-color: #F4F4F4;
+  padding: 150px 0;
+}
+/* .section2 .cc{
+  margin-top: -200px;
+} */
+@media (max-width:1000px){
+  .section2 {
+    padding:220px 0;
+  }
+}
+
+.section2 .inside{
+  top: -50px;
+  padding: 30px 15px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+.section2 .inside .tick i{
+  color: brown;
+}
+
+.section2 .inside .info p{
+  font-weight: 700;
+}
+
+/* ============================== section3 starts here ========================================= */
+
+.section3 .inside1 h2{
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.section3 .inside1 p{
+  font-weight: 500;
+  font-size: 20px;
+  color: #696969;
+}
+
+.section3 .new{
+  padding-left: 30px;
+  padding-top: 20px;
+  border: rgb(244,244,244);
+  border-radius: 8px;
+  box-shadow: rgb(28 28 28 / 10%) 0px 4px 16px;
+}
+
+.section3 .new h4{
+  color: #256fef;
+  font-size: 24px;
+}
+
+.section3 .new p{
+  font-size: 18px;
+}
+
+/*---====================section4========================---*/
+#section4{
+  width:100%;
+  background-image: url(../images/i/zomato_images\ \(1\).webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:300px;
+}
+
+.sec5 img{
+  width:60px;
+  height:60px;
+  object-fit: cover;
+ 
+}
+.sec5 .item{
+  background-color:rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 20px 0 70px;
+  width:80%;
+  margin:auto;
+  margin-top:-150px;
+  transition: 0.4s;
+  cursor:pointer;
+
+}
+.sec5 .item:hover{
+  box-shadow: 0 0 20px rgba(0,0,0,0.10);
+}
+
+@media (max-width:760px){
+  #section4{
+  display: none;
+   
+ 
+  }
+  .sec5 .item{
+      box-shadow: 0 0 4px rgba(0,0,0,0.05);
+      margin-top: 20px;
+  }
+}
+
+/* =================================== section6 section here ============================= */
+
+.section6{
+  background-color: #F4F4F4;
+}
+
+.section6 .data1 h2{
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.section6 .data1 p{
+  font-weight: 400;
+  color: #696969;
+  font-size: 20px;
+}
+
+.section6 .data2 .search {
+  width: 100%;
+  border-radius: 7px;
+  padding: 13px;
+}
+
+.section6 .data2 .search i {
+  font-size: 20px;
+  color: grey;
+}
+
+.section6 .data2 input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.section6 .data2 .inp1{
+  width: 30%;
+}
+.section6 .data2 .inp2{
+  width: 60%;
+}
+
+.section6 .data2 .input1 {
+  width: 80%;
+  border-right: 0.2px solid lightgrey;
+}
+
+.section6 .data2 .input2 {
+  width: 92%;
+}
+
+/* =============================== Section 7 starts here =========================== */
+
+.section7{
+  background-color: white;
+}
+
+.section7 .carousel-indicators{
+  top: 250px !important;
+}
+
+.section7 .carousel-indicators button{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 5px;
+}
+
+.section7 .carousel-control-prev{
+  width: auto;
+  left: -40px;
+}
+
+.section7 .carousel-control-next{
+  width: auto;
+  right: -40px;
+}
+
+.section7 .carousel-control-prev-icon,.carousel-control-next-icon{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: black;
+  background-size: 50%;
+}
+
+.section7 h2{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.section7 .image1,.image2{
+  position: absolute;
+}
+
+.section7 .hh{
+  height: 230px;
+}
+
+.section7 .image1{
+  width: 130px;
+  bottom: 0px;
+  right: 0;
+  z-index: 10;
+}
+
+.section7 .image2{
+  left: 20%;
+  top: 0;
+  width: 100px;
+}
+
+.section7 .mm p{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.section7 .mm h5{
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section7 .mm h6{
+  font-weight: 700;
+}
+
+
+/* ============================= FAQ section here ===================== */
+
+.faq .inside1{
+  background: url(../images/add_restaurant/background.jpg) center; 
+  background-size: cover;
+  border-radius: 10px;
+  padding: 35px 20px 50px 35px;
+}
+
+.modal-dialog{
+  width: 450px !important;
+  margin: auto !important;
+}
+
+
+.faq .inside1 .here{
+  border: 2px solid rgb(195, 195, 195);
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.faq .inside1 .here select{
+  outline: none;
+  border: none;
+  border-right: 0.5px solid rgb(195, 195, 195);
+  padding-right: 5px;
+}
+
+.faq .inside1 .here input{
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.faq .inside1 .change1 p{
+  font-size: 20px;
+  color: rgb(109, 109, 109);
+}
+
+.faq .inside1 .modal-header h1{
+  font-size: 32px !important;
+  font-weight: 700;
+}
+
+.faq .inside1 .modal-footer{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.faq .inside1 .modal-footer p{
+  font-size: 18px;
+}
+
+.faq .inside1 .sign span{
+  font-size: 15px;
+}
+
+.faq .data2 .accordion{
+  border: 1px solid rgba(211, 211, 211, 0.541);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.faq .data2 #accord h3{
+  font-size: 35px;
+  color: rgb(31, 31, 31);
+  font-weight: 700;
+}
+
+.accordion-button:not(.collapsed){
+  background: rgba(249, 249, 249, 0.849);
+  color: black;
+}
+
+.accordion-button:focus{
+  box-shadow: none;
+}
+.form-control:focus{border-color: #52c5c1;  box-shadow: none;} 
+
+.accordion h6{
+  font-size: 20px;
+}
+
+/* ======================== find location here ============ */
+
+.find{
+  background-image: url(../images/add_restaurant/new.webp);
+  background-position: bottom;
+  background-size: cover;
+}
+.for{
+  background-color: white;
+  box-shadow: rgb(228 233 235 / 90%) 8px 46px 50px;
+  border-radius: 8px;
+}
+
+.find .data1 h2{
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.find .data1 p{
+  font-size: 17px;
+}
+
+/* ============================================= footer section here ======================== */
+
+#footer .rrr {
+  border-bottom: 2px solid black;
+}
+
+#footer {
+  background-color: rgb(240, 237, 237);
+}
+
+.image1{
+  height: auto;
+  width: 180px;
+}
+
+.first img {
+  width: 32;
+  height: 32px;
+}
+
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-1 {
+  display: flex;
+}
+
+.first-1 span a {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+#footer .container .row .d a {
+
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+
+}
+
+#footer .rrr a {
+  color: gray;
+}
+
+#footer .rrr .cr a i {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+#footer .rrr .cr ul .a1 {
+  padding-bottom: 5%;
+}

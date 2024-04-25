@@ -1,0 +1,291 @@
+.can .nav {
+    height: 50px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    display: inline-block;
+    font-size: 2rem;
+    color: #000000;
+    padding: 8px 10px 10px 10px;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .nav > .nav-header > p{
+    display: inline-block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0 0 25px 2px ;
+    position: relative;
+    color: #1c1c1c;
+  }
+  
+  .nav > .nav-header > p::before{
+    content: '';
+    height: 30%;
+    width: 0.5px;
+    left: -10px;
+    top: 5px;
+    position: absolute;
+    background-color: black;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 0.9rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 25px 12px 13px 12px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav > .nav-links > a:hover {
+    color: #ef4f5f;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:795px) {
+    
+    .nav .nav-header{
+        display: none;
+    }
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #000000;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 70px;
+      left: 0px;
+      background-color: #4d4d4d1f;
+    }
+    .nav > .nav-links > a {
+      color: white;
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  
+  /*===================nav close ===========================*/
+
+  /*-- ==============section1==================== -- */
+#section1 {
+    background-image: url(../images/report/zomato_images.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 65vh;    
+}
+
+/*---===========section2==========---*/
+
+#section2 .container .row{
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+#section2 .container .row .info .text p{
+    font-size: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#section2 .container .row .info .text h3{
+    color:#828282;
+}
+#section2 .container .row .info .text h2{
+    color: #EF4F5F;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/*---===========section2 end==========---*/
+
+/*---=========== section3 ==========---*/
+
+#section3 .container .r1 .c1 h1{
+    
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#section3 .container .r2 .c2 h6{
+    color:#828282;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+/*---=========== section3 end==========---*/
+
+/*--================ section4 ===================*/
+
+#section4 .container .rw .cv{
+    background-color: #f8f8f8;
+}
+
+#section4 .container .r8 .c8 .r9 .c9 h6{
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#section4 .container .r8 .c8 .r9 .c9 h6::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom: -15px;
+    height:7px;
+    width:50px;
+    background-color: #EF4F5F;
+}
+
+/*---=========== section5==========---*/
+
+#section5 .container{
+    background-color: #f8f8f8;
+}
+
+#section5 .container .r5 .c5 h4{
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#section5 .container .r5 .c5 h4::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom: -15px;
+    height:7px;
+    width:50px;
+    background-color: #EF4F5F;
+}
+#section5 .container .r6 .c6 h5{
+    color:#828282;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+/*---=========== section4 ==========---*/
+#Governance .container .r3 .c3 h1{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#Governance .container .r4 .c4 h6{
+    color:#828282;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+/* ============================================= footer section here ======================== */
+
+#footer .rrr {
+  border-bottom: 2px solid black;
+}
+
+#footer {
+  background-color: rgb(240, 237, 237);
+}
+
+.image1{
+  height: auto;
+  width: 180px;
+}
+
+.first img {
+  width: 32;
+  height: 32px;
+}
+
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-1 {
+  display: flex;
+}
+
+.first-1 span a {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+#footer .container .row .d a {
+
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+
+}
+
+#footer .rrr a {
+  color: gray;
+}
+
+#footer .rrr .cr a i {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+#footer .rrr .cr ul .a1 {
+  padding-bottom: 5%;
+}
+

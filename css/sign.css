@@ -1,0 +1,55 @@
+.content{
+    height:100vh;
+}
+
+.form-check-input:checked{
+    background-color: red !important;
+   
+   
+}
+.btn-dark{
+    background: rgb(245, 19, 19);
+}
+
+.already a{
+color:red;
+}
+.d a img{
+  
+    width:30px;
+}
+.container .form-check .form-check-input{
+    width:1rem !important;
+    height:1rem !important;
+    margin-top: 5px;
+    color: red;
+}
+.form-control{
+    border:1px solid red !important;
+    
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.form-control:focus{
+    border:1px solid red !important;
+  
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.btnpp{
+   background-color: white !important;
+   border: 1px solid rgb(194, 194, 194) !important;
+   color:black;
+    /* border: none !; */
+    border-radius: 50px;
+}
+.btn-p{
+    background: rgb(219, 219, 219) !important;
+     
+    border: none;
+    border-radius: 50px;
+}
+.form-check .form-check-label span{
+    color:red;
+}

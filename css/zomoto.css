@@ -1,0 +1,378 @@
+
+a{
+    text-decoration: none;
+}
+
+.section1 {
+    background-image: url(../images/bnr.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.section1 .inside1 a {
+    color: white;
+}
+
+.section1 .navbar-brand {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+}
+
+.section1 .navbar-brand i {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.section1 .collapse .navbar-nav a {
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
+.section1 .inside1 .data1 h1 {
+    font-size: 5.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.section1 .inside1 .data1 p {
+    font-size: 2.3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+}
+
+.section1 .inside1 .data2 .search {
+    width: 800px;
+    border-radius: 7px;
+    padding: 13px;
+}
+
+.section1 .inside1 .data2 .search i {
+    font-size: 20px;
+    color: grey;
+}
+
+.section1 .inside1 .data2 input {
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.section1 .inside1 .data2 .inp1{
+    width: 30%;
+}
+.section1 .inside1 .data2 .inp2{
+    width: 60%;
+}
+
+.section1 .inside1 .data2 .input1 {
+    width: 80%;
+    border-right: 0.2px solid lightgrey;
+}
+
+.section1 .inside1 .data2 .input2 {
+    width: 92%;
+}
+/*----------------------------navclose-----------------*/
+
+.imgg img{
+    width:250px;
+}
+#bnr-text{
+    position: absolute;
+    min-height: 100vh;
+}
+.sec2{
+    padding: 40px 0; 
+}
+.card{
+    box-shadow: 0 0 30px rgba(0.0.0.0.5);
+    overflow: hidden;
+    border-radius: 20px;
+}
+.img1 img{
+    height:10rem;
+    object-fit: cover;
+    width:100%;
+}
+/* ============================== section 3 start here =============================== */
+/* ============================== section 3 start here =============================== */
+.section3 h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section3 .data1 p {
+    display: inline;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section3 .data1 a {
+    text-decoration: none;
+    color: #E03546;
+}
+
+/* ========= data 2 ======== */
+
+.section3 .data2 .image {
+    border-radius: 7px;
+    overflow: hidden;
+    color: white;
+}
+
+.section3 .data2 .image .image_info {
+    width: 100%;
+    padding-left: 15px;
+    position: absolute;
+    bottom: -10px;
+    background-image: linear-gradient(transparent, black);
+}
+
+.section3 .data2 .image .image_info h5 {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.section3 .data2 .image .image_info a {
+    text-decoration: none;
+    color: white;
+}
+
+.section3 .data2 .image .image_info p {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section3 .data2 .image .image_info p i {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+/*====================sec4=========================*/
+
+/* ============================== section 4 start here =============================== */
+
+.section4 .data1 h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section4 .data1 h1 span {
+    font-weight: 600;
+}
+
+.section4 .data2 .check {
+    height: 80px;
+    border: 0.2px solid rgba(211, 211, 211, 0.82);
+    border-radius: 7px;
+    padding: 0 10px;
+}
+
+.section4 .data2 .check .data h5 {
+    padding-top: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section4 .data2 .check .data p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+}
+
+/*============sec5=============*/
+#sec5{
+    background-color: rgb(255, 251, 247);
+   
+}
+#sec5 .container .row .img3 img{
+width:100%;
+height: 350px;
+object-fit: contain;
+padding-top: 17%;
+}
+
+.flex{
+    display:flex;
+}
+
+
+.section4 .data1 h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section4 .data1 h1 span{
+    font-weight: 600;
+}
+
+
+
+/*---------------------=========footer=======------------------*/
+
+#footer .rrr {
+    border-bottom: 2px solid black;
+  }
+  
+  #footer {
+    background-color: rgb(240, 237, 237);
+  }
+  
+  .image1{
+    height: auto;
+    width: 180px;
+  }
+  
+  .first img {
+    width: 32;
+    height: 32px;
+  }
+  
+  
+  .first {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .first-1 {
+    display: flex;
+  }
+  
+  .first-1 span a {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+  }
+  
+  #footer .container .row .d a {
+  
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  #footer .rrr a {
+    color: gray;
+  }
+  
+  #footer .rrr .cr a i {
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+  }
+  
+  #footer .rrr .cr ul .a1 {
+    padding-bottom: 5%;
+  }
+/*==========accord============*/
+/* ================================= section 6 starts here ======================== */
+
+.section6 {
+    background-color: #FFFBF7;
+}
+
+.section6 h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.accordion-header button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.accordion-item {
+    border: 0.5px solid lightgrey !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/*--------------------section6----------------*/
+
+#frm .container .r8 .c8 .input {
+    width:100%;
+    padding:2%;
+    border-radius: 4px;
+    border: 1px solid rgb(184,183,183);
+    font-size: 1.3rem;
+}
+
+#frm .container .r8 .c9 a{
+    text-decoration: none;
+    background-color: rgb(255,92,92);
+     padding: 10px 30px 12px 30px;
+    color:white;
+    border-radius: 3px;
+}
+#frm .container .r7 .c10 img{
+    height:300px;
+    object-fit: contain;
+    
+}
+.place{
+    position: absolute;
+    font-size: 1.3rem;
+    left:15px;
+    top:13px;
+    color:gray;
+    font-weight: lighter;
+    padding-left: 2%;
+}
+.rt .vv{
+    
+    accent-color:#ff4d29;
+}
+
+#frm input[placeholder], [placeholder], *[placeholder] {
+    color: #ff4d29 !important;
+}
+#frm ::placeholder {
+  color: #ff4d29;
+ 
+}
+
+.accordion-header button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.accordion-item {
+    border: 0.5px solid lightgrey !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFF  !important;
+    background-color: rgb(255,92,92) !important;
+  }
+  
+  
+  
+.accordion-button:focus {
+  
+    border-color: #FFF !important;
+
+    box-shadow: 0 0 0 .25rem #FFF !important;
+  }
+
+
